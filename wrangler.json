@@ -1,0 +1,30 @@
+{
+  "name": "green-band-763a",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sparkling-sun-4eb5-d1",
+      "database_id": "b70c0e8b-33ea-4f2f-a6e4-fa1d06acd5fd"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "green-band-763a-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
